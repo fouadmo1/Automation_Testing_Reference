@@ -57,5 +57,9 @@ public class HomePage {
         clickLink("Multiple Windows");
         return new MultipleWindowsPage(driver);
     }
+    public CheckBoxesPage clickOnCheckBoxPage(){
+        clickLink("Checkboxes");
+        return new CheckBoxesPage(driver);
+    }
 
 }

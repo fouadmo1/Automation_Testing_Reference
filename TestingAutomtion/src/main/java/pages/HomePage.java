@@ -22,7 +22,7 @@ public class HomePage {
     }
 
     public HoversPage clickOnHoversLink(){
-        clickLink("hovers");
+        clickLink("Hovers");
         return new HoversPage(driver);
     }
     public KeyPressesPage clickOnKeyPressesLink(){
